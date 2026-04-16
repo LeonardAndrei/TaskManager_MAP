@@ -1,54 +1,115 @@
 using System;
+using System.Collections.Generic;
 using TaskManager.Core.Models;
 using TaskManager.Core.Services;
 using TaskManager.Data;
+using TaskManager.Core.Notifications;
+using TaskManager.Core.Interfaces;
 
-var repository = new InMemoryTaskRepository();
-var taskService = new TaskService(repository);
-
-try
+// 1. Initializarea aplicatiei (Aici era problema ta, lipseau liniile astea)
+var repository = new SqliteTaskRepository();
+var validator = new TaskValidator();
+var notifiers = new Dictionary<NotificationType, ITaskNotifier>
 {
-    Console.WriteLine("Adaugam taskuri");
+    { NotificationType.Console, new ConsoleNotifier() },
+    { NotificationType.Email, new EmailNotifier() },
+    { NotificationType.FileLog, new FileLogNotifier() }
+};
 
+var taskService = new TaskService(repository, validator, notifiers);
 
-    taskService.AddTask(new TaskItem { Title = "Fa curat pe desktop", Type = TaskType.Standard });
-    taskService.AddTask(new TaskItem { Title = "Rezolva bug-urile din codul de la Minesweeper", Type = TaskType.Bug });
-    taskService.AddTask(new TaskItem { Title = "Task de sters", Type = TaskType.Review });
-
-    AfiseazaTaskuri(taskService);
-
-    Console.WriteLine("\n\n---------------------");
-    Console.WriteLine("Completam primul task");
-    taskService.CompleteTask(1);
-
-    AfiseazaTaskuri(taskService);
-
-    Console.WriteLine("\n\n---------------------");
-    Console.WriteLine("Stergem al treilea task");
-    taskService.DeleteTask(3);
-
-    AfiseazaTaskuri(taskService);
-}
-catch (ArgumentException ex)
+// 2. Meniul aplicatiei
+while (true)
 {
-    Console.WriteLine($"\n[EROARE DE VALIDARE] {ex.Message}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"\n[EROARE SISTEM] {ex.Message}");
-}
+    Console.Clear();
+    Console.WriteLine("=== TASK MANAGER ===");
+    Console.WriteLine("1. Vezi toate task-urile");
+    Console.WriteLine("2. Adauga un Deadline Task");
+    Console.WriteLine("3. Adauga un Recurring Task");
+    Console.WriteLine("4. Marcheaza un task ca DONE");
+    Console.WriteLine("5. Sterge un task");
+    Console.WriteLine("6. Iesire");
+    Console.Write("\nAlege o optiune: ");
 
-Console.WriteLine("\nApasa tasta ENTER pentru a inchide consola...");
-Console.ReadLine();
+    var input = Console.ReadLine();
+
+    try
+    {
+        Console.WriteLine();
+        switch (input)
+        {
+            case "1":
+                AfiseazaTaskuri(taskService);
+                break;
+            case "2":
+                Console.Write("Titlu task: ");
+                var titluDeadline = Console.ReadLine();
+                var deadlineTask = new DeadlineTask
+                {
+                    Title = titluDeadline,
+                    DueDate = DateTime.UtcNow.AddDays(2),
+                    NotificationType = NotificationType.Console
+                };
+                taskService.AddTask(deadlineTask);
+                Console.WriteLine("Deadline Task adaugat cu succes!");
+                break;
+            case "3":
+                Console.Write("Titlu task: ");
+                var titluRecurent = Console.ReadLine();
+                var recurringTask = new RecurringTask
+                {
+                    Title = titluRecurent,
+                    RecurrenceInterval = 7,
+                    NotificationType = NotificationType.Console
+                };
+                taskService.AddTask(recurringTask);
+                Console.WriteLine("Recurring Task adaugat cu succes!");
+                break;
+            case "4":
+                Console.Write("Introdu ID-ul task-ului pe care vrei sa il termini: ");
+                if (int.TryParse(Console.ReadLine(), out int idDone))
+                {
+                    taskService.CompleteTask(idDone);
+                }
+                else
+                {
+                    Console.WriteLine("ID invalid!");
+                }
+                break;
+            case "5":
+                Console.Write("Introdu ID-ul task-ului pe care vrei sa il stergi: ");
+                if (int.TryParse(Console.ReadLine(), out int idDelete))
+                {
+                    taskService.DeleteTask(idDelete);
+                    Console.WriteLine("Task sters cu succes!");
+                }
+                else
+                {
+                    Console.WriteLine("ID invalid!");
+                }
+                break;
+            case "6":
+                return;
+            default:
+                Console.WriteLine("Optiune invalida. Incearca din nou.");
+                break;
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"[EROARE] {ex.Message}");
+    }
+
+    Console.WriteLine("\nApasa tasta ENTER pentru a continua...");
+    Console.ReadLine();
+}
 
 static void AfiseazaTaskuri(TaskService service)
 {
-    Console.WriteLine("\n> Lista de task-uri:");
-
-    var allTasks = service.GetAllTasks();
-
-    foreach (var task in allTasks)
+    var tasks = service.GetAllTasks();
+    Console.WriteLine("--- LISTA TASK-URI ---");
+    foreach (var task in tasks)
     {
-        Console.WriteLine($"  [{task.Id}] {task.Title} | Tip: {task.Type} | Status: {task.Status}");
+        Console.WriteLine($"[{task.Id}] {task.Title} | Tip: {task.TaskType} | Status: {task.Status}");
     }
 }

@@ -31,9 +31,18 @@ namespace TaskManager.Data
             var existingTask = GetById(task.Id);
             if (existingTask != null)
             {
+                // Actualizam doar datele care au voie sa fie modificate
                 existingTask.Title = task.Title;
+                existingTask.Description = task.Description;
                 existingTask.Status = task.Status;
-                existingTask.Type = task.Type;
+                existingTask.Priority = task.Priority;
+                existingTask.NotificationType = task.NotificationType;
+                
+                // Daca task-ul existent si cel nou sunt ambele DeadlineTask, actualizam si DueDate
+                if (existingTask is DeadlineTask existingDeadline && task is DeadlineTask newDeadline)
+                {
+                    existingDeadline.DueDate = newDeadline.DueDate;
+                }
             }
         }
 

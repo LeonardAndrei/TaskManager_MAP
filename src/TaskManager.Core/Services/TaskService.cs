@@ -8,24 +8,22 @@ namespace TaskManager.Core.Services
     public class TaskService
     {
         private readonly ITaskRepository _repository;
+        private readonly TaskValidator _validator;
+        private readonly IReadOnlyDictionary<NotificationType, ITaskNotifier> _notifiers;
 
-        public TaskService(ITaskRepository repository)
+        public TaskService(
+            ITaskRepository repository,
+            TaskValidator validator,
+            IReadOnlyDictionary<NotificationType, ITaskNotifier> notifiers)
         {
             _repository = repository;
+            _validator = validator;
+            _notifiers = notifiers;
         }
 
         public void AddTask(TaskItem task)
         {
-            if (string.IsNullOrWhiteSpace(task.Title))
-            {
-                throw new ArgumentException("Eroare: Titlul task-ului nu poate fi gol!");
-            }
-
-            if (task.Title.Length > 50)
-            {
-                throw new ArgumentException("Eroare: Titlul este prea lung (maxim 50 caractere)!");
-            }
-
+            _validator.Validate(task);
             _repository.Add(task);
         }
 
@@ -39,13 +37,16 @@ namespace TaskManager.Core.Services
             var task = _repository.GetById(id);
 
             if (task == null)
-            {
-                throw new ArgumentException($"Eroare: Nu am găsit niciun task cu ID-ul {id}!");
-            }
+                throw new ArgumentException($"Eroare: Nu am gasit niciun task cu ID-ul {id}!");
 
             task.Complete();
 
             _repository.Update(task);
+
+            if (_notifiers.TryGetValue(task.NotificationType, out var notifier))
+            {
+                notifier.Notify(task);
+            }
         }
 
         public void DeleteTask(int id)
