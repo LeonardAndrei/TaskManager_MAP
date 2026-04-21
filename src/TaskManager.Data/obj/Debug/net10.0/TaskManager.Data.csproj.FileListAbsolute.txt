@@ -8,9 +8,9 @@ C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\T
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.AssemblyInfoInputs.cache
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.AssemblyInfo.cs
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.sourcelink.json
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskMana.CE20C279.Up2Date
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.dll
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\refint\TaskManager.Data.dll
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.pdb
 C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\ref\TaskManager.Data.dll
-C:\Users\leoan\Desktop\Facultate\Metode Avansate De Programare\TaskManager\src\TaskManager.Data\obj\Debug\net10.0\TaskManager.Data.sourcelink.json

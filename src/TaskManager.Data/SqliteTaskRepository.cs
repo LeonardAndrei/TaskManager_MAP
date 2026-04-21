@@ -63,7 +63,7 @@ namespace TaskManager.Data
             command.ExecuteNonQuery();
         }
 
-        public IEnumerable<TaskItem> GetAll()
+        public IReadOnlyList<TaskItem> GetAll()
         {
             var tasks = new List<TaskItem>();
             using var connection = new SqliteConnection(ConnectionString);

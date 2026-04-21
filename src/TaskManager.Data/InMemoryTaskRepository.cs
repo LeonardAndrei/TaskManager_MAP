@@ -10,7 +10,7 @@ namespace TaskManager.Data
         private readonly List<TaskItem> _tasks = new List<TaskItem>();
         private int _nextId = 1;
 
-        public IEnumerable<TaskItem> GetAll()
+        public IReadOnlyList<TaskItem> GetAll()
         {
             return _tasks;
         }

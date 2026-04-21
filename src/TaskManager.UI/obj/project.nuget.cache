@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xI6ZRfsnQpg=",
+  "dgSpecHash": "kceO+YMTlxk=",
   "success": true,
   "projectFilePath": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\TaskManager.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leoan\\.nuget\\packages\\microsoft.data.sqlite\\10.0.5\\microsoft.data.sqlite.10.0.5.nupkg.sha512",
     "C:\\Users\\leoan\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.5\\microsoft.data.sqlite.core.10.0.5.nupkg.sha512",
+    "C:\\Users\\leoan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.6\\microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "C:\\Users\\leoan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.6\\microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
     "C:\\Users\\leoan\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\Users\\leoan\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
     "C:\\Users\\leoan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
