@@ -134,12 +134,19 @@ namespace TaskManager.Data
             }
             else
             {
-                task = new RecurringTask { RecurrenceInterval = 1 };
+                task = new RecurringTask { RecurrenceInterval = reader.IsDBNull(8) ? 7 : reader.GetInt32(8) };
             }
 
+            // Mapam TOATE coloanele, altfel se iau valorile default din constructor
             task.Id = reader.GetInt32(0);
             task.Title = reader.GetString(1);
+            task.Description = reader.IsDBNull(2) ? string.Empty : reader.GetString(2);
             task.Status = Enum.Parse<TaskManager.Core.Models.TaskStatus>(reader.GetString(3));
+            task.Priority = reader.GetInt32(4);
+            task.NotificationType = Enum.Parse<NotificationType>(reader.GetString(6));
+
+            // REZOLVAREA BUG-ULUI AICI: Citim data reala din baza de date
+            task.CreatedAt = DateTime.Parse(reader.GetString(9));
 
             return task;
         }

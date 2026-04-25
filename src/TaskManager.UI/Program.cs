@@ -38,7 +38,8 @@ namespace TaskManager.UI
                 {
                     { NotificationType.Console, new ConsoleNotifier() },
                     { NotificationType.Email, new EmailNotifier() },
-                    { NotificationType.FileLog, new FileLogNotifier() }
+                    { NotificationType.FileLog, new FileLogNotifier() },
+                    { NotificationType.Telegram, new TelegramNotifier() }
                 });
 
             // Inregistram Form-ul principal

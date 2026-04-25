@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\tests\\taskmanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|solutionrelative:tests\\taskmanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.core\\notifications\\telegramnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\notifications\\telegramnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.core\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +35,20 @@
       "RelativeMoniker": "D:0:0:{5E3C889E-A92D-2A85-9A51-A299C9217939}|src\\TaskManager.Data\\TaskManager.Data.csproj|solutionrelative:src\\taskmanager.data\\sqlitetaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\tests\\taskmanager.tests\\lab4tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|solutionrelative:tests\\taskmanager.tests\\lab4tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\tests\\taskmanager.tests\\taskmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|solutionrelative:tests\\taskmanager.tests\\taskmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\tests\\taskmanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7954314B-E188-078A-3191-395584BE3B5D}|tests\\TaskManager.Tests\\TaskManager.Tests.csproj|solutionrelative:tests\\taskmanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.core\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{CF363F87-7668-7BE8-2FCF-4CBA0AE3CE48}|src\\TaskManager.UI\\TaskManager.UI.csproj|solutionrelative:src\\taskmanager.ui\\taskmanager.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F5A7C7-D5D7-9303-3EEE-5655862521CD}|src\\TaskManager.Core\\TaskManager.Core.csproj|solutionrelative:src\\taskmanager.core\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E3C889E-A92D-2A85-9A51-A299C9217939}|src\\TaskManager.Data\\TaskManager.Data.csproj|c:\\users\\leoan\\desktop\\facultate\\metode avansate de programare\\taskmanager\\src\\taskmanager.data\\taskmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5E3C889E-A92D-2A85-9A51-A299C9217939}|src\\TaskManager.Data\\TaskManager.Data.csproj|solutionrelative:src\\taskmanager.data\\taskmanager.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -54,24 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConsoleNotifier.cs",
-              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
-              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
-              "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:07:04.65Z",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-22T16:12:16.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "FileLogNotifier.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
@@ -79,12 +107,11 @@
               "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\FileLogNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:07:02.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T13:07:02.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Interfaces\\ITaskRepository.cs",
@@ -96,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\tests\\TaskManager.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "tests\\TaskManager.Tests\\UnitTest1.cs",
@@ -104,31 +131,43 @@
               "RelativeToolTip": "tests\\TaskManager.Tests\\UnitTest1.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T09:56:51.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T09:56:51.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SqliteTaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Data\\SqliteTaskRepository.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Data\\SqliteTaskRepository.cs",
               "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Data\\SqliteTaskRepository.cs",
               "RelativeToolTip": "src\\TaskManager.Data\\SqliteTaskRepository.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAQwEEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwH8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T08:43:26.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Models\\TaskItem.cs",
+              "RelativeToolTip": "src\\TaskManager.Core\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:23:06.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\Program.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.UI\\Program.cs",
               "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\Program.cs",
               "RelativeToolTip": "src\\TaskManager.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvykAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T17:45:30.898Z",
               "EditorCaption": ""
@@ -136,19 +175,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.cs",
+              "RelativeToolTip": "src\\TaskManager.UI\\MainForm.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAiwP0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:30:37.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelegramNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\TelegramNotifier.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\TelegramNotifier.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\TelegramNotifier.cs",
+              "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\TelegramNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T15:03:22.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.cs [Design]",
+              "RelativeToolTip": "src\\TaskManager.UI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T15:05:02.492Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsoleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
+              "RelativeToolTip": "src\\TaskManager.Core\\Notifications\\ConsoleNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T13:07:04.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.resx",
+              "RelativeDocumentMoniker": "src\\TaskManager.UI\\MainForm.resx",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\MainForm.resx",
+              "RelativeToolTip": "src\\TaskManager.UI\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-21T09:30:25.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lab4Tests.cs",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\tests\\TaskManager.Tests\\Lab4Tests.cs",
+              "RelativeDocumentMoniker": "tests\\TaskManager.Tests\\Lab4Tests.cs",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\tests\\TaskManager.Tests\\Lab4Tests.cs",
+              "RelativeToolTip": "tests\\TaskManager.Tests\\Lab4Tests.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:18:22.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Services\\TaskService.cs",
               "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Services\\TaskService.cs",
               "RelativeToolTip": "src\\TaskManager.Core\\Services\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAwwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T17:42:28.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "TaskManager.Tests",
+              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\tests\\TaskManager.Tests\\TaskManager.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\TaskManager.Tests\\TaskManager.Tests.csproj",
+              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\tests\\TaskManager.Tests\\TaskManager.Tests.csproj",
+              "RelativeToolTip": "tests\\TaskManager.Tests\\TaskManager.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-22T14:17:26.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ReportService.cs",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Core\\Services\\ReportService.cs",
@@ -156,24 +283,11 @@
               "RelativeToolTip": "src\\TaskManager.Core\\Services\\ReportService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T16:49:29.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T16:49:29.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Models\\TaskItem.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Core\\Models\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Core\\Models\\TaskItem.cs",
-              "RelativeToolTip": "src\\TaskManager.Core\\Models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T14:23:06.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "TaskManager.UI.csproj",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.UI\\TaskManager.UI.csproj",
               "RelativeDocumentMoniker": "src\\TaskManager.UI\\TaskManager.UI.csproj",
@@ -181,11 +295,12 @@
               "RelativeToolTip": "src\\TaskManager.UI\\TaskManager.UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-29T17:52:55.283Z"
+              "WhenOpened": "2026-03-29T17:52:55.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "TaskManager.Data.csproj",
               "DocumentMoniker": "C:\\Users\\leoan\\Desktop\\Facultate\\Metode Avansate De Programare\\TaskManager\\src\\TaskManager.Data\\TaskManager.Data.csproj",
               "RelativeDocumentMoniker": "src\\TaskManager.Data\\TaskManager.Data.csproj",
@@ -193,7 +308,8 @@
               "RelativeToolTip": "src\\TaskManager.Data\\TaskManager.Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-29T15:22:06.582Z"
+              "WhenOpened": "2026-03-29T15:22:06.582Z",
+              "EditorCaption": ""
             }
           ]
         }

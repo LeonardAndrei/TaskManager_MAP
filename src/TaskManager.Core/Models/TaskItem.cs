@@ -3,7 +3,7 @@
 namespace TaskManager.Core.Models
 {
     public enum TaskStatus { Todo, InProgress, Done }
-    public enum NotificationType { Email, Console, FileLog }
+    public enum NotificationType { Email, Console, FileLog, Telegram }
     public enum TaskType { Standard, Recurring, Deadline }
 
     public abstract class TaskItem

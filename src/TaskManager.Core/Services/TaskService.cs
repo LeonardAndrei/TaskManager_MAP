@@ -26,7 +26,7 @@ namespace TaskManager.Core.Services
             _validator.Validate(task);
             _repository.Add(task);
         }
-
+            
         public IEnumerable<TaskItem> GetAllTasks()
         {
             return _repository.GetAll();
